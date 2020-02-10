@@ -13,11 +13,12 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
+  gem 'coveralls', require: false
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
-  gem 'coveralls', require: false
   gem 'capybara'
+  gem 'pry-rails'
 end
 
 group :development do
